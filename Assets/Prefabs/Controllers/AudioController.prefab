@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1391388025278570}
+  m_IsPrefabParent: 1
+--- !u!1 &1391388025278570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4705121913256862}
+  - component: {fileID: 114290410858554434}
+  m_Layer: 0
+  m_Name: AudioController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4705121913256862
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391388025278570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114290410858554434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391388025278570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1977386c9e04eae4e981f1abe92e0b16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ThrowEletricoSong
+    clip: {fileID: 8300000, guid: 75240411cafa84946a4a1ea2b4d58007, type: 3}
+    volume: 0.3
+    pitch: 1
+    playOnAwake: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SwitchBullet
+    clip: {fileID: 8300000, guid: e7469b5ab3abcbc43b0dde211073e2ff, type: 3}
+    volume: 0.8
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: AngryPerson
+    clip: {fileID: 8300000, guid: b11e695f04991ac44ab81844586763be, type: 3}
+    volume: 0.5
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: HappyPerson
+    clip: {fileID: 8300000, guid: 07e33e95c0aeca34eb1d09a55223ee5b, type: 3}
+    volume: 0.9
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: FallenBullet
+    clip: {fileID: 8300000, guid: deae5007c343a7b4ca18b93a48a0a85f, type: 3}
+    volume: 0.6
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: ThrowBullet
+    clip: {fileID: 8300000, guid: 1bca7619cfa34e84fb28baf8069e9cf5, type: 3}
+    volume: 0.5
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: HitPersonDesire
+    clip: {fileID: 8300000, guid: 90b66a03ee3fa9d448943c560092b571, type: 3}
+    volume: 0.6
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: MissPersonDesire
+    clip: {fileID: 8300000, guid: 393568bd747db5045814c28cbb1f291f, type: 3}
+    volume: 0.5
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 84d132606063b1341acffb2c167527e7, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
