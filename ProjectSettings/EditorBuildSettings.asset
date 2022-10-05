@@ -6,8 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SplashScreen.unity
-    guid: 796233bbf5c1beb40b60226a45ddb472
-  - enabled: 1
-    path: Assets/Scenes/ThrowEletrico.unity
-    guid: 5eeb9e7cf0bb9164e85d71393d5b2886
+    path: Assets/Scenes/Game.unity
+    guid: deb54b47b8e2e1b4c9636dede8bf217e
+  m_configObjects: {}
